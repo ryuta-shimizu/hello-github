@@ -76,7 +76,7 @@ def callback():
 
     except InvalidSignatureError:
 
-        abort(200)
+        abort(400)
 
 
 
